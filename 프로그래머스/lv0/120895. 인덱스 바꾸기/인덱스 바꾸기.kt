@@ -15,3 +15,9 @@ class Solution {
         return answer
     }
 }
+
+// var stringArray = my_string.toCharArray()
+
+// my_string.toCharArray()
+// stringArray[num1] = my_string[num2]
+// stringArray[num2] = my_string[num1]
