@@ -12,3 +12,5 @@ class Solution {
         return answer
     }
 }
+
+//println(s1.count{s2.contains(it)})
