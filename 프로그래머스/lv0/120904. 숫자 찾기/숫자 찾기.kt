@@ -14,3 +14,12 @@ class Solution {
         }
     }
 }
+
+// var numChar = num.toString()
+// answer = numChar.indexOf(k.toString())
+    
+// if (answer >= 0){
+//     return answer + 1
+// }else{
+//     answer
+// }
