@@ -14,3 +14,5 @@ class Solution {
         return answer.toCharArray().sortedArray().joinToString("")
     }
 }
+
+//return my_string.toLowerCase().toCharArray().sortedArray().joinToString("")
