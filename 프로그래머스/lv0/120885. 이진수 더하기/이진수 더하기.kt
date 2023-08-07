@@ -34,3 +34,5 @@ class Solution {
         return result.reversed().joinToString ("")
     }
 }
+
+//Integer.toBinaryString(Integer.parseInt(bin1, 2) + Integer.parseInt(bin2, 2))
