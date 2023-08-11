@@ -25,3 +25,8 @@ class Solution {
         return answer
     }
 }
+
+// return quiz.map { s: String ->
+//             val arr = s.trim().split(" ".toRegex())
+//             if (arr[1] == "+" && arr[0].toInt() + arr[2].toInt() == arr[4].toInt() || arr[0].toInt() - arr[2].toInt() == arr[4].toInt()) "O" else "X"
+//         }.toTypedArray()
