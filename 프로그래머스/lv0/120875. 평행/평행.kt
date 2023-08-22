@@ -21,3 +21,16 @@ class Solution {
         return count
     }
 }
+
+
+// var answer: Int = 0
+
+// var slopes = mutableListOf<Double>()
+
+// dots.forEachIndexed { index, value ->
+//     for (i in (index + 1)..(dots.size - 1)) {
+//         slopes.add(abs(value[1].toDouble() - dots[i][1]) / abs(value[0].toDouble() - dots[i][0]))
+//     }
+// }
+
+// return if (slopes.size == slopes.distinct().size) 0 else 1
