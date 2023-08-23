@@ -10,3 +10,9 @@ class Solution {
         return answer.distinct().toTypedArray()
     }
 }
+
+
+// var answer = strings
+
+// var list =  answer.sortedWith(compareBy({ it[n] }, { it }))
+// return list.toTypedArray()
