@@ -9,3 +9,5 @@ class Solution {
         return answer
     }
 }
+
+//LongArray(n) { x.toLong() * (it + 1) }
