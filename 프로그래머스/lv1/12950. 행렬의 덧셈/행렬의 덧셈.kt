@@ -11,3 +11,7 @@ class Solution {
         return answer
     }
 }
+
+// answer = arr1.mapIndexed { indexArr, ints ->
+//         ints.mapIndexed { indexInts, i -> i + arr2[indexArr][indexInts] }.toIntArray()
+//     }.toTypedArray()
