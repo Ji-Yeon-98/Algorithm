@@ -9,3 +9,6 @@ class Solution {
         return answer
     }
 }
+
+//val chars = s.toCharArray()
+//val result = chars.sortedWith(Comparator { o1, o2 -> o2 - o1 })
