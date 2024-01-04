@@ -6,8 +6,6 @@ class Solution {
     
         var reversed = answer.reversed()
     
-        food.forEachIndexed { index, i -> if(index == 0 && i == 1) answer += 0 }
-    
-        return answer + reversed
+        return answer + "0" + reversed
     }
 }
