@@ -14,3 +14,9 @@ class Solution {
         return answer
     }
 }
+
+// for (i in (m - 1)..score.lastIndex step m) {
+//     answer += score[i]
+// }
+
+// return answer * m
