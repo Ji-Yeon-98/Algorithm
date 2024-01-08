@@ -3,24 +3,19 @@ import java.util.*
 class Solution {
     fun solution(ingredient: IntArray): Int {
         var answer: Int = 0
-        
-        val a = Stack<Int>()
-        for (i in ingredient) {
-            a.add(i)
 
-            if (a.peek() == 1 && a.size >= 4) {
-                val first = a[a.size - 4] == 1
-                val second = a[a.size - 3] == 2
-                val third = a[a.size - 2] == 3
-                val fourth = a[a.size - 1] == 1
+        var stack = Stack<Int>()
 
-                if (first && second && third && fourth) {
-                    repeat(4) { a.pop() }
-                    answer++
-                }
+        for(i in ingredient){
+            stack.push(i)
 
+            val index = stack.size
+            if(stack.size >= 4 && stack[index-1] == 1 && stack[index-2] == 3 && stack[index-3] == 2 && stack[index-4] == 1){
+                answer += 1
+                repeat(4){stack.pop()}
             }
         }
+    
         return answer
     }
 }
