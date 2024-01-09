@@ -15,3 +15,12 @@ class Solution {
         
     }
 }
+
+
+// var sum: Long = 0
+
+// for(i in 1..count){
+//     sum += price * i
+// }
+
+// return if(answer < 0) 0 else answer = sum - money
